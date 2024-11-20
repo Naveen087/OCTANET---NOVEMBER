@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Kavoon&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+#main {
+  width: 100%;
+  min-height: 10vh;
+}
+#right {
+  margin-bottom: 50px;
+  float: right;
+  height: 40vh;
+  width: 20vw;
+}
+#contact {
+  float: left;
+  width: 30vw;
+  height: auto;
+}
+#search {
+  font-size: 25px;
+}
+.sch {
+  border-radius: 10px;
+  border: none;
+  padding: 7px 25px;
+  text-align: center;
+}
+.sb {
+  border: none;
+  background-color: hsla(0, 0%, 10%, 0.8);
+  cursor: pointer;
+  border-radius: 10px;
+}
+.sb:hover {
+  background-color: hsla(0, 0%, 30%, 0.8);
+}
+.sb:active {
+  background-color: hsla(0, 0%, 0%, 0.8);
+}
+.bg {
+  width: 100%;
+  min-height: 20vh;
+  padding: 50px 25px;
+  opacity: 70%;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  background-color: hsla(0, 0%, 10%);
+}
+form {
+  float: inline-end;
+}
+h1 {
+  font-family: "Rubik Wet Paint", system-ui;
+  font-size: 65px;
+  color: hsla(0, 0%, 50%, 0.8);
+}
+body {
+  background-color: hsl(0, 0%, 6%);
+}
+.hg {
+  color: hsla(51, 100%, 50%, 0.9);
+}
+.glist {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.glist_item {
+  background-color: hsl(0, 0%, 9%);
+  margin: 15px;
+  border: 1px solid hsl(0, 0%, 0%);
+  height: 57vh;
+  width: 70vw;
+  border-radius: 10px;
+}
+.bgbtn {
+  padding: 20px 35px;
+  border-radius: 15px;
+  background-color: hsl(39, 100%, 50%);
+  cursor: pointer;
+  font-size: 2em;
+  font-family: "Kavoon", serif;
+}
+.bgbtn:hover {
+  background-color: hsl(39, 100%, 40%);
+}
+.bgbtn:active {
+  background-color: hsl(39, 100%, 30%);
+}
+.glistbtn {
+  margin: 3%;
+  padding: 10px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  background-color: orange;
+  font-size: 1em;
+  font-weight: 800;
+  color: hsl(0, 0%, 10%);
+}
+.glistbtn:hover {
+  background-color: hsl(39, 100%, 40%);
+}
+.glistbtn:active {
+  background-color: hsl(39, 100%, 30%);
+}
+.about {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+.con {
+  padding-top: 80px;
+}
+.link {
+  font-size: 35px;
+  border: none;
+}
+.cen {
+  text-align: center;
+}
+.gname {
+  color: hsla(0, 0%, 50%, 0.7);
+  font-size: 1.3rem;
+  text-align: center;
+}
+img {
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 30vw;
+  height: 38vh;
+  border-radius: 5px;
+}
+h2 {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 15px;
+}
+h3 {
+  color: aliceblue;
+  text-align: center;
+  font-size: 2em;
+}
+nav {
+  float: left;
+  margin-top: auto;
+}
+nav a {
+  text-decoration: none;
+  border: 2px solid hsl(0, 0%, 70%);
+  color: white;
+  padding: 10px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+nav a:hover {
+  background-color: hsl(0, 0%, 20%);
+}
+nav a:active {
+  background-color: hsl(0, 0%, 10%);
+  color: orange;
+}
+i {
+  color: white;
+  font-size: 40px;
+}
+hr {
+  border-color: hsla(0, 0%, 50%, 0.5);
+}
+.copyright {
+  color: hsla(0, 0%, 50%, 0.5);
+  padding: 15px;
+}
+.copy {
+  color: gray;
+}
+.joy {
+  height: 50vh;
+  width: auto;
+}
+.contro {
+  margin-top: -20%;
+  margin-left: 60%;
+}
+.no a {
+  border: none;
+}
+.cen a {
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 15px;
+  border-radius: 15px;
+}
+.cen a:hover {
+  background-color: hsl(0, 0%, 20%);
+}
+.cen a:active {
+  background-color: hsl(0, 0%, 10%);
+  color: orange;
+}
